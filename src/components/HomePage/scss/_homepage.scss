@@ -1,0 +1,165 @@
+@import "../../../assets//scss//constants";
+
+h6 {
+  color: black !important;
+}
+////// CAROUSAL STYLING ////////////////////////////////////////
+.carousel-section {
+  position: relative;
+  .carousel-text {
+    position: absolute;
+    z-index: 1;
+    left: calc(50% - 110px);
+    bottom: 18%;
+    text-align: center;
+    h1,
+    h5 {
+      color: white;
+      letter-spacing: 3px;
+    }
+    .primaryBtn {
+      &.enroll-btn {
+        font-size: 1.2rem;
+        background-color: #30b484 !important;
+        font-weight: 550;
+        padding: 10px 15px;
+        width: 220px;
+      }
+    }
+  }
+}
+.carousel-item {
+  max-height: 533px;
+  img {
+    filter: brightness(60%);
+    border-radius: 0px !important;
+  }
+}
+.carousel-indicators {
+  li {
+    width: 7px !important;
+    height: 7px !important;
+    background-color: white;
+    &.active {
+      background-color: $primary;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+.homepage{
+  .dropdown-div{
+    select , input{
+      padding: 10px 20px;
+      height: 50px;
+      border-radius: 5px;
+      margin-left: 5px;
+    }
+    select{
+      width: 240px;
+    }
+    input{
+      width: 375px;
+    }
+    .custom-select-location{
+      font-size: 1.2em !important;
+      text-transform: capitalize;  
+      width: 200px !important;
+      
+      option{
+        border: 1px solid #ccc !important;
+      }
+    }
+    .search-institute-button{
+      font-size: 1.2em;
+      text-transform: capitalize;
+      padding: 10px 30px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+      .search-icon{
+        position: relative;
+        top: 5px;
+        left: 10px;
+      }
+    }
+  }
+  .selector-service-category{
+    select{
+      padding: 8px 20px;
+      color: $primary;
+      height: 50px;
+      border-radius: 5px;
+      margin-left: 5px;
+      font-size: 20px !important;
+      width: 240px;
+      border: 1px solid $primary;
+    }
+  }
+  .course-category{
+    
+    .heading{
+      font-size: 2em;
+      margin-left: -10px ;
+      font-weight: 600;
+    }
+    .see-all{
+      position: absolute;
+      right: 20px;
+      font-size: 1.3em;
+      text-transform: uppercase;
+      top: 10px;
+
+    }
+  }
+
+  .cards-group{
+    .heading-trending{
+      font-weight: 500;
+      margin-left: 10px;
+      font-size: 2em;
+      margin-bottom: 10px !important;
+    }
+    .see-all{
+      position: absolute;
+      right: 20px;
+      font-size: 1.3em;
+      text-transform: uppercase;
+      top: 10px;
+
+    }
+  }
+}
+
+////////////////////////////////////////////////////////////////
+.carousel-bottom-text {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  background-color: $primary;
+  color: white;
+  h5 {
+    margin: 0;
+    font-weight: 350 !important;
+  }
+}
+@media (max-width: 767px) {
+  .carousel-text {
+    left: calc(50% - 63px) !important;
+  }
+  .enroll-btn {
+    width: 126px !important;
+    padding: 5px !important;
+    font-size: 1rem !important;
+    font-weight: 400 !important;
+  }
+  .carousel-indicators {
+    margin-bottom: -1px !important;
+  }
+  .carousel-bottom-text h5 {
+    font-size: 1rem;
+  }
+}

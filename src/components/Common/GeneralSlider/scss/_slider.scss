@@ -1,0 +1,190 @@
+@import "../../../../assets//scss//constants";
+
+.slick-initialized {
+  overflow: hidden !important;
+  // .slick-cloned{
+  //   display: none !important;
+  // }
+}
+
+.instructor-name-p {
+  margin-bottom: 0px;
+  padding: 0px 10px;
+  padding-bottom: 6px;
+  .title {
+    font-size: 15px !important;
+  }
+  .name {
+    color: $primary;
+    font-size: 15px !important;
+    font-weight: 380;
+  }
+}
+.card-img-div {
+  position: relative;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  .playIcon {
+    position: absolute;
+    height: 55px;
+    width: 55px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .card-title {
+    padding: 7px 7px 0px 11px;
+    font-size: 20px;
+  }
+  .card-description {
+    // padding:0px 11px !important;
+    padding-left: 11px !important;
+    padding-right: 11px !important;
+    padding-bottom: 6px !important;
+  }
+  .discount-text {
+    position: absolute;
+    top: 8px;
+    background-color: red;
+    border-radius: 21px;
+    padding: 2px 12px;
+    font-size: 0.7rem;
+    left: 8px;
+    color: white;
+  }
+}
+.cards-group {
+  padding: 0px 20px;
+  @media (max-width : 576px) {
+    padding: 0px 2px;
+  }
+}
+.rating-div {
+  display: flex;
+  align-items: center;
+  padding: 0px 7px;
+  span {
+    font-size: 20px !important;
+  }
+  span.text {
+    margin-left: 10px;
+    span {
+      font-size: 15px !important;
+    }
+    .total {
+      color: gray;
+    }
+  }
+}
+// COURSES SLIDER
+.coursesSlider {
+  background-color: #f2f2f2;
+  margin-bottom: 20px;
+  padding: 7px 10px;
+  width: 100%;
+  .slick-arrow {
+    z-index: 1;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    margin-top: -32px !important;
+    margin-left: 7px !important;
+    &.slick-prev {
+      margin-left: 3px;
+      &::before {
+        font-size: 22px;
+        line-height: 1;
+        color: lightgrey;
+        opacity: 1 !important;
+        content: url("../../../../assets//icons/arrow.png") !important;
+        border-radius: 50%;
+      }
+    }
+    &.slick-next {
+      margin-right: 30px;
+      &::before {
+        font-size: 22px;
+        line-height: 1;
+        // z-index: 1 !important;
+        color: lightgrey;
+        z-index: 1;
+        opacity: 1 !important;
+        content: url("../../../../assets//icons/arrow-next.png") !important;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+.card-footer-div {
+  .enroll-btn-with-cart {
+    .MuiButton-label {
+      text-transform: none !important;
+    }
+  }
+}
+.amount {
+  .currencyText {
+    color: gray;
+    font-size: 15px;
+    margin-left: 2px;
+    margin-left: 5px !important;
+  }
+}
+
+/////// SERVICE SLIDE STYLING /////////////////////////////////////////////////////////
+.service-row {
+  .name-col {
+    margin-left: 6px;
+    padding-top: 9px !important;
+    .name {
+      font-size: 0.8rem;
+      color: $secondaryText;
+      font-weight: 500;
+    }
+    .profession {
+      font-size: 0.63rem;
+      font-weight: 450;
+      color: lightgray;
+    }
+  }
+  .rating-col {
+    display: flex;
+    justify-content: center;
+    padding-top: 9px !important;
+    .rating {
+      font-size: 14px;
+      margin-top: 3px;
+    }
+    .total {
+      color: $secondaryText;
+      font-size: 0.8rem;
+    }
+  }
+}
+.service-desc {
+  .col-12 {
+    padding: 0px 6px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 320;
+    &.starting-from {
+      color: $primary;
+      font-size: 0.9rem;
+      text-align: right;
+      .price {
+        font-weight: 500;
+      }
+    }
+  }
+}
+.nothing-to-show-slider{
+  width: 100% !important;
+  display: inline-block !important;
+  font-size: 25px ;
+  text-align: center !important ;
+  height: 100px !important;
+  margin: auto !important;
+  padding: 30px !important;
+  font-weight: 500 !important;
+}

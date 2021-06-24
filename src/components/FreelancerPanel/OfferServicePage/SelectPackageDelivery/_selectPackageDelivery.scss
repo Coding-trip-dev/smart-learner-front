@@ -1,0 +1,19 @@
+.delivery-days-list {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-right: 1px;
+    max-height: 250px;
+    list-style-type: none;
+    padding-inline-start: 0px;
+    overflow: auto;
+    z-index: 1;
+    background-color: #F3F3F3;
+    border: 1px solid lightgrey;
+}
+.cursor-pointer {
+    &:hover {
+        cursor: pointer;
+    }
+}

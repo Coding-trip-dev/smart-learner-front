@@ -1,0 +1,64 @@
+.reviews-wrapper{
+    margin-left: 30px;
+    
+    .enrolled-outing{
+    display: flex;
+    margin-bottom: 20px;
+        .enrolled-heading{
+            font-size: 1.4em;
+            font-weight: 500;
+            margin-top: 5px !important;
+        }
+        .link{
+            margin-top: 10px;
+            font-size: 18px;
+            position: absolute;
+            right: 0;
+            cursor: pointer;
+        }
+    }
+
+    .left_wrapper_reviews{
+        padding: 0px !important;
+        display: flex;
+        .img-wrapper-reviews{
+            img{
+
+                height: 70px !important;
+            }
+        }
+        .content-list-item{
+            .name{
+                font-weight: 400;
+                font-size: 18px;
+                text-transform: capitalize;
+                margin-left: 15px;
+                margin-top: 10px !important;
+            }
+            .time{
+                margin-left: 15px;
+                font-size: 14px;
+                color: #7d7b7b;
+            }
+        }
+    }
+    .right_wrapper_reviews{
+        margin-bottom: 10px;
+        
+                .star{
+                    font-size: 12px;
+            }
+            .subject-name{
+                text-transform: capitalize;
+                color: #33aa58;
+                font-size: 18px;
+                font-weight: 400;
+                
+            }
+            .description-course{
+                font-size: 15px;
+                color: #7d7b7b;
+            }
+        }
+    
+}

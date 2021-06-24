@@ -1,0 +1,85 @@
+@import "../../../../assets/scss/constants";
+
+.admin-navbar {
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 1px 8px lightgrey;
+}
+.admin-navbar {
+  .action-navbar-item{
+    display: flex;
+    align-items: center;
+    .sign-btn {
+      background: transparent;
+      padding: 0px 13px;
+      height: 33px;
+      border: none;
+      color: white;
+      background-color: $primary;
+      border-radius: 0px;
+      font-size: 12px;
+      &:hover {
+        cursor: pointer;
+      }
+      &:focus {
+        outline: white !important;
+      }
+      &:active {
+        border: 1px solid white !important;
+      }
+    }
+  }
+  .logo-text {
+    font-weight: 300;
+    span {
+      color: $primary;
+      margin-right: 3px;
+    }
+  }
+}
+
+.navbar-item {
+  &.searchbar-item {
+    flex-grow: 1;
+    form {
+      width: fit-content;
+      border: 1px solid gray;
+      .search-icon {
+          height: 20px;
+          margin-left: 7px;
+      }
+      input {
+        border: 0px !important;
+        padding: 0px 8px;
+        &:active {
+          outline: 0px !important;
+          border: 0px !important;
+        }
+        @media (max-width:576px) {
+          width: 197px;
+        }
+      }
+    }
+    @media (min-width: 992px) {
+      padding-left: 40px;
+    }
+  }
+}
+.navbar-toggler {
+  padding: 3px 5px !important;
+  .navbar-toggler-icon {
+    height: 15px;
+    width: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar {
+    padding: 2px;
+    box-shadow: 0px 1px 8px lightgrey;
+    margin-bottom: 2px;
+  }
+  .searchbar-item {
+    padding-left: 0px;
+  }
+}

@@ -1,0 +1,82 @@
+@import "../../../assets//scss//constants";
+
+h6 {
+  color: black !important;
+}
+////// CAROUSAL STYLING ////////////////////////////////////////
+.carousel-section {
+  position: relative;
+  .carousel-text {
+    position: absolute;
+    z-index: 1;
+    left: calc(50% - 110px);
+    bottom: 18%;
+    text-align: center;
+    h1,
+    h5 {
+      color: white;
+      letter-spacing: 3px;
+    }
+    .primaryBtn {
+      &.enroll-btn {
+        font-size: 1.2rem;
+        background-color: #30b484 !important;
+        font-weight: 550;
+        padding: 10px 15px;
+        width: 220px;
+      }
+    }
+  }
+}
+.carousel-item {
+  max-height: 533px;
+  img {
+    filter: brightness(60%);
+    border-radius: 0px !important;
+  }
+}
+.carousel-indicators {
+  li {
+    width: 7px !important;
+    height: 7px !important;
+    background-color: white;
+    &.active {
+      background-color: $primary;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+////////////////////////////////////////////////////////////////
+.carousel-bottom-text {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  background-color: $primary;
+  color: white;
+  h5 {
+    margin: 0;
+    font-weight: 350 !important;
+  }
+}
+@media (max-width: 767px) {
+  .carousel-text {
+    left: calc(50% - 63px) !important;
+  }
+  .enroll-btn {
+    width: 126px !important;
+    padding: 5px !important;
+    font-size: 1rem !important;
+    font-weight: 400 !important;
+  }
+  .carousel-indicators {
+    margin-bottom: -1px !important;
+  }
+  .carousel-bottom-text h5 {
+    font-size: 1rem;
+  }
+}

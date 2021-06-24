@@ -1,0 +1,237 @@
+@import "../../../assets//scss//constants";
+
+.heading {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  h3 {
+    margin-right: 70px;
+  }
+  .rating {
+    margin-top: 12px;
+    .students {
+      font-size: 12px;
+      margin-left: 5px;
+    }
+    .star {
+      font-size: 18px !important;
+    }
+  }
+}
+p {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+.subheading-col {
+  margin-bottom: 5px;
+  .subheading {
+    margin: 0px;
+    margin-right: 70px;
+    color: $primary !important;
+  }
+  p {
+    display: flex;
+    flex: auto;
+    .last-updated {
+      font-weight: bold;
+      font-size: 0.95rem;
+      align-self: flex-end;
+    }
+    .updated-date {
+      margin-left: 5px;
+      color: $primary;
+      font-size: 0.95rem;
+      flex: 1;
+      align-self: flex-end;
+    }
+  }
+  .institute-btn {
+    font-size: 0.81rem;
+  }
+}
+
+.spacing {
+  margin: 12px 0px;
+}
+.video-container-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .video-container {
+    border: 3px solid #343a40;
+    height: fit-content;
+    width: 100%;
+    .video {
+      height: 463px;
+    }
+  }
+}
+.courses-list {
+  background-color: #373737 !important;
+  height: 463px;
+  overflow-y: auto;
+  padding: 0px;
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px gray;
+    border-radius: 15px;
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 10px;
+  }
+
+  /* Handle on hover */
+  &::-webkit-scrollbar-thumb:hover {
+    background: gray;
+  }
+}
+.course-topic-box {
+  padding: 15px;
+  margin-left: 5px;
+  box-shadow: 0 0 5px 2px gray;
+}
+.course-topic {
+  &::before {
+    content: "\A";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: $primary;
+    margin-right: 10px;
+    margin-bottom: 2px;
+    display: inline-block;
+  }
+}
+.about {
+  padding-left: 35px;
+  .avatar-cntnr {
+    img {
+      height: 110px !important;
+      border-radius: 50% !important;
+    }
+  }
+  ul {
+    list-style-type: none;
+    padding-left: 0px;
+    li {
+      display: flex;
+      span {
+        margin-bottom: 6px;
+      }
+    }
+    .courses::before {
+      content: url("../../../assets//icons//courses.png");
+      margin-right: 22px;
+    }
+    .reviews::before {
+      content: url("../../../assets//icons//reviews.png");
+      margin-right: 22px;
+    }
+    .students::before {
+      content: url("../../../assets//icons//students.png");
+      margin-right: 22px;
+    }
+  }
+}
+.time-down-col {
+  padding-left: 100px;
+}
+
+/// RESPONSIVENESS
+@media (max-width: 991px) {
+  .col-12 {
+    padding: 2px;
+  }
+  .heading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 2px;
+    h3 {
+      margin: 0px;
+      font-size: 1.2rem;
+    }
+    .rating {
+      margin: 0px;
+      align-self: stretch;
+      display: flex;
+      .star {
+        margin-right: 15px;
+        font-size: 14px !important;
+      }
+      .students {
+        font-size: 10px;
+      }
+    }
+  }
+  .subheading-col {
+    flex-direction: column;
+    margin-bottom: 0px;
+    .subheading {
+      font-size: 0.9rem;
+      margin-right: 0px;
+      margin-bottom: 2px;
+    }
+    p {
+      .last-updated {
+        font-size: 0.75rem;
+      }
+      .updated-date {
+        font-size: 0.85rem;
+      }
+    }
+    .institute-btn {
+      font-size: 0.6rem;
+    }
+  }
+  .course-topic-box {
+    padding: 7px;
+    margin-left: 0px;
+    .row {
+      .course-topic {
+        &::before {
+          height: 7px;
+          width: 7px;
+        }
+      }
+    }
+  }
+  .video-container-col {
+    padding: 0px;
+    .video-container {
+      height: fit-content;
+      background-color: #373737;
+      .video {
+        height: 90vw !important;
+        max-height: 500px;
+      }
+      .courses-list {
+        height: 311px;
+      }
+    }
+  }
+  .description-row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .time-down-col {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.manage_width{
+   width: 90%;
+}

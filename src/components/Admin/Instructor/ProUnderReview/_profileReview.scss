@@ -1,0 +1,40 @@
+.wrapper-review {
+  flex: 1;
+  padding: 28px;
+  margin: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 50px;
+  box-shadow: 0 0 5px 2px lightgrey;
+  .review-section{
+    height: 230px;
+    width: 550px;
+    box-shadow: 0 0 5px 2px lightgrey;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    .review-icon{
+      height: 80px;
+      margin: auto;
+      display: block;
+      padding-top: 10px;
+    }
+    .review-content{
+      text-transform: capitalize;
+      font-size: 1.7em;
+      color: #a5a5a5;
+      margin-top: 10px;
+
+    }
+    .thanks-content{
+      font-size: 1.1em;
+      margin-top: 20px;
+      color: #51ab59;
+      font-weight: 400;
+
+    }
+  }
+
+}
+.content-outer{
+  padding-top: 10px !important;
+}

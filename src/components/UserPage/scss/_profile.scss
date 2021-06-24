@@ -1,0 +1,76 @@
+@import "../../../assets//scss//constants";
+
+h6 {
+  color: white;
+}
+
+.caption {
+  font-size: 0.9rem;
+  margin-bottom: 7px !important;
+  span {
+    color: black;
+    margin-left: 10px;
+  }
+}
+.enrolled-course-thumbnail {
+  border-radius: 7px;
+}
+
+.primary-color-text {
+  color: $primary;
+}
+.progress {
+  height: 5px;
+  background-color: $primary;
+  margin-top: 13px;
+  border-radius: 0px;
+  .progress-bar {
+    background-color: white;
+  }
+}
+.primaryBtn {
+  &.continue {
+    margin-top: 13px;
+    padding: 3px 10px;
+    border-radius: 0px;
+  }
+}
+.course-enrolled-row {
+  background-color: #505763;
+}
+.courses-row {
+  .col-xl-3 {
+    padding: 0px !important;
+  }
+}
+.enrolled-course-title {
+  color: #a7abb1 !important;
+}
+.enrolled-course-desc {
+  color: #717681;
+}
+@media (max-width: 575px) {
+  .enrolled-course-thumbnail {
+    border-radius: 0px;
+  }
+  .enrolled-course-title {
+    font-size: 1.15rem;
+    margin-top: 5px;
+  }
+  .progress,
+  .continue {
+    margin-top: 5px;
+  }
+  .student-visit-info {
+    margin-bottom: 0px !important;
+  }
+  .welcome-student-text {
+    margin-bottom: 5px;
+  }
+}
+.dropdown-div {
+  &.user-dd {
+    padding-top: 10px;
+    margin: 0px;
+  }
+}

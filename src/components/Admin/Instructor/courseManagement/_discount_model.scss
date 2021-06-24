@@ -1,0 +1,138 @@
+/* Chrome, Safari, Edge, Opera */
+._add-price-input::-webkit-outer-spin-button,
+._add-price-input::-webkit-inner-spin-button,
+.pick-date::-webkit-clear-button,
+.pick-date::-webkit-outer-spin-button,
+.pick-date::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.pick-date {
+  -moz-appearance: textfield;
+}
+ 
+
+.ReactModal__Overlay {
+    z-index: 1000 !important;
+    background-color: rgba(0, 0, 0, 0.2) !important;
+}
+.ReactModal__Content{
+    // background-color: rgba(0, 0, 0, 0.2) !important;
+    background: transparent !important;
+    position: relative;
+    border: none !important;
+    // padding: 0px !important;
+    padding-top: 20px;
+}
+.Modal {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    right: 40px;
+    bottom: 40px;
+    // background-color: papayawhip;
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    // background-color: rgba(0, 0, 0, 0.5);
+
+  }
+
+  .Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rebeccapurple;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+.modal-custom-auth-discount {
+    background-color: white;
+    padding: 14px 20px 0px 20px;
+
+    .close {
+        position: absolute;
+        top: -13px;
+        right: -15px;
+        background-color: #9a9a9a;
+        color: white;
+        font-weight: 100;
+        font-size: 0.95rem;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        border: 2px solid white;
+        opacity: 1;
+        &:hover {
+            color: white;
+        opacity: 1;
+
+        }
+        .x{
+            top: 3px;
+            position: absolute;
+            right: 10px;
+        }
+    }
+    .model-custom-outer{
+        height: 50vh;
+        width: 50vh;
+
+    }
+}
+.modal-auth-discount{
+   
+    .model-heading-discount {
+        padding: 10px 0px 0px 0px;
+        color: black;
+        font-weight: 400 !important;
+        font-size: 1.3rem ;
+        margin-bottom: 0px !important;
+    }
+    .model-course-name{
+        font-size: 0.9rem;
+        color: #33aa58;
+        font-weight: 500;
+        margin-top: 0px;
+    }
+}
+.left-list-discount-model{
+    text-align: left !important;
+    float: left;
+    list-style-type: none;
+    position: relative;
+    top: 20px;
+    right: 30px;
+    li{
+        padding: 3px;
+    }
+}
+.right-list-discount-model{
+    text-align: right !important;
+    list-style-type: none;
+    position: relative;
+    top: 20px;
+    li{
+        padding: 3px;
+        color: #33aa58;
+        font-weight: 500;
+    }
+    .pick-date{
+        width: 40px;
+        height: 20px;
+        border-radius: 5px;
+        border: 1px solid grey;
+    }
+}
+.add-discount-button{
+    padding: 8px 33px;
+    border: none;
+    background-color: #21927a;
+    color: white;
+    position: relative;
+    top: 20px;
+    border-radius: 3px;
+
+}

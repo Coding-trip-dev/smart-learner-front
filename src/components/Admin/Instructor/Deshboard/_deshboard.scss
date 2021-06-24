@@ -1,0 +1,36 @@
+
+
+
+.deshboard-wrapper-side-instructor {
+  flex: 1;
+  padding: 28px;
+  margin: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 50px;
+  box-shadow: 0 0 5px 2px lightgrey;
+  
+}
+.time-student-query{
+  font-size: 14px !important;
+  color: #7d7b7b;
+}
+.student-query-head-section{
+  margin: 50px 0px 10px 0px;
+
+  .student-heading{
+    font-size: 1.6em;
+    font-weight: 400;
+    text-transform: capitalize;
+
+  }
+  .select-topic-in-question{
+    padding: 3px 7px 6px 7px;
+    width: 100px;
+    border-radius: 25px;
+    background-color: #dadada;
+    margin-top: 10px;
+    font-size: 13px;
+    position: absolute;
+    right: 0;
+    }
+}

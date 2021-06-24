@@ -1,0 +1,140 @@
+@import "../../../assets//scss//constants";
+ 
+.footer-wrapper {
+  // margin-top: 100px;
+  border-top: 10px solid $primary;
+  width: 100%;
+  .footer{
+    height: 400px;
+    background-color: #373737;
+    .logo-section{
+      margin-top: 30px;
+      margin-bottom: 20px;
+      border-right: 1px solid white;
+      img{
+        height: 60px;
+        width: 90%;
+        // margin: 10px 0px
+      }
+      .desc-text{
+        color: white;
+        font-weight: 400;
+        font-size: 12px;
+        padding: 10px;
+        margin: 10px 0px
+      }
+      .location-wrapper{
+        display: flex;
+        margin: 10px 0px;
+        .location-icon{
+          background-color: #fff;
+          border-radius: 25px;
+          height: 20px;
+          width: 20px;
+          margin-left: 10px
+        }
+        .location-text{
+          font-size: 11px;
+          color: white;
+          margin: 0px 10px;
+
+        }
+      }
+    }
+    .services-section{
+      margin-top: 30px;
+      margin-bottom: 20px;
+      border-right: 1px solid white;
+      padding: 0px 40px;
+      .heading-service{
+        font-size: 1.7em;
+        color: white;
+        font-weight: 400;
+      }
+      .list-services{
+        .item-li{
+          font-weight: 400;
+          font-size: 1em;
+          color: white;
+          margin-bottom: 5px;
+        }
+      }
+    }
+    .support-section{
+      margin-top: 30px;
+      margin-bottom: 20px;
+      border-right: 1px solid white;
+      padding: 0px 40px;
+      .heading-service{
+        font-size: 1.7em;
+        color: white;
+        font-weight: 400;
+      }
+      .list-services{
+        .item-li{
+          font-weight: 400;
+          font-size: 1em;
+          color: white;
+          margin-bottom: 5px;
+        }
+      }
+    }
+    .about-section{
+      margin-top: 30px;
+      margin-bottom: 20px;
+      padding: 0px 40px;
+      .heading-service{
+        font-size: 1.7em;
+        color: white;
+        font-weight: 400;
+      }
+      .list-services{
+        .item-li{
+          font-weight: 400;
+          font-size: 1em;
+          color: white;
+          margin-bottom: 5px;
+        }
+      }
+      .icons-list{
+        .icons{
+         border-radius: 15px;
+          background-color: $primary;
+          margin-right: 10px;
+        }
+      }
+    }
+    .bottom-part{
+      border-top: 1px solid white;
+      width: 100%;
+      display: flex;
+      .left-side{
+        display: flex;
+        img{
+          margin-top: 10px;
+          height: 20px;
+          width: 200px;
+        }
+        .copyRight{
+          font-size: 12px;
+          color: white;
+          margin: 10px
+
+        }
+      }
+      .right-side{
+        .language{
+          font-size: 14px;
+          color: white;
+          margin-top: 10px;
+
+          .usa-flag{
+            height: 15px;
+            width: 25px;
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+  }
+} 

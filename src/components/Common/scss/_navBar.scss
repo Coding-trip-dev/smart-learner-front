@@ -1,0 +1,107 @@
+@import "../../../assets/scss/constants";
+
+.custom-navbar {
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 1px 8px lightgrey;
+}
+.custom-navbar {
+  .action-navbar-item{
+    display: flex;
+    align-items: center;
+    .sign-btn {
+      background: transparent;
+      padding: 0px 13px;
+      height: 33px;
+      border: none;
+      color: white;
+      background-color: $primary;
+      border-radius: 3px;
+      font-size: 12px;
+      margin-left: 10px;
+
+      &:hover {
+        cursor: pointer;
+      }
+      &:focus {
+        outline: white !important;
+      }
+      &:active {
+        border: 1px solid white !important;
+      }
+    }
+  }
+  .logo-text {
+    font-weight: 300;
+    span {
+      color: $primary;
+      margin-right: 3px;
+    }
+  }
+}
+.navbar-search {
+  border-radius: 0px !important;
+  &::placeholder {
+    color: gray;
+    font-size: 15px;
+  }
+  &:focus {
+    background: rgba(255, 255, 255, 0.6) !important;
+  }
+}
+.search-btn {
+  color: white;
+  background-color: $primary;
+  border: none;
+  border-radius: 0px !important;
+  &.btn {
+    padding: 0.495rem 0.5rem !important;
+    font-size: 15px !important;
+  }
+}
+
+.navbar-item {
+  &.searchbar-item {
+    flex-grow: 1;
+    form {
+      width: fit-content;
+      border: 1px solid gray;
+      .search-icon {
+          height: 20px;
+          margin-left: 7px;
+      }
+      input {
+        border: 0px !important;
+        padding: 0px 8px;
+        &:active {
+          outline: 0px !important;
+          border: 0px !important;
+        }
+        @media (max-width:576px) {
+          width: 197px;
+        }
+      }
+    }
+    @media (min-width: 992px) {
+      padding-left: 40px;
+    }
+  }
+}
+.navbar-toggler {
+  padding: 3px 5px !important;
+  .navbar-toggler-icon {
+    height: 15px;
+    width: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar {
+    padding: 2px;
+    box-shadow: 0px 1px 8px lightgrey;
+    margin-bottom: 2px;
+  }
+  .searchbar-item {
+    padding-left: 0px;
+  }
+}

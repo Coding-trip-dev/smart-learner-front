@@ -1,0 +1,120 @@
+
+
+
+.pay-fee-outer {
+  flex: 1;
+  padding: 28px;
+  margin: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 50px;
+  box-shadow: 0 0 5px 2px lightgrey;
+  .wrapper-payment{
+    margin-left: 40px;
+  }
+  .pay-fee-heading {
+    font-weight: 400 !important;
+    font-size: 2.5em;
+    .currency{
+      text-transform: uppercase;
+      font-size: 14px !important;
+      margin-left: 30px;
+      font-weight: 500;
+      color: #51ab59;
+    }
+  }
+  .lower-heading-payment{
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #ccc;
+    margin-top: 10px !important;
+  }
+  .card-details-outer{
+    margin-top: 20px;
+    .label-card-number{
+      font-size: 1.1em;
+      color: #51ab59;
+      font-weight: 400;
+    }
+    .card-number-input{
+      padding: 10px;
+      display: block;
+      width: 500px;
+      margin-top: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      height: 50px;
+      background-image: url("./assets/master.png") , url('./assets/visa.png');
+      background-repeat: no-repeat;
+      background-size: 30px;
+      background-position: right 10px bottom 15px , right 50px bottom 13px;
+    }
+    
+  }
+  .expiration-section{
+    display: flex;
+    flex-grow: 1;
+    margin-top: 20px;
+    .expiration-date{
+      label{
+        color: #51ab59;
+        font-size: 1.1em;
+        
+      }
+      .expiring-date-input{
+        display: block;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 200px;
+      }
+    }
+    .sec-code{
+      margin-left: 30px;
+      label{
+        color: #51ab59;
+        font-size: 1.1em;
+        
+      }
+      .expiring-date-input{
+        display: block;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 200px;
+      }
+    }
+  }
+  .button-wrapper{
+    width: 74%;
+    margin-top: 30px;
+    .pay-button{
+      width: 100%;
+      background-color: #51ab59;
+      color: white;
+      font-size: 1.1em;
+      text-transform: capitalize;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+
+    }
+  }
+  .terms-cond{
+    // height: 100px;
+    width: 100%;
+    background-color: #373737;
+    // opacity: 0.3;
+    color: white;
+    padding: 10px ;
+    border-radius: 5px;
+    text-align: justify;
+    .heading-term-cond{
+      font-size: 16px;
+    }
+    .term-cond-details{
+      color: #ccc;
+      font-size: 14px;
+    }
+  }
+
+}

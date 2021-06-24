@@ -1,0 +1,18 @@
+.manageGigsContainer {
+  padding: 20px 10px;
+  padding-top: 30px;
+  box-shadow: 0px 1px 5px 2px lightgrey;
+  margin: 10px;
+  width: 100%;
+  .gigHeading {
+    color: #52B484;
+  }
+  .addGigBtn {
+    font-size: 1.3rem;
+    padding: 4px 39px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    background-color: #52b484;
+  }
+}

@@ -1,0 +1,239 @@
+.ReactModal__Overlay {
+    z-index: 1000 !important;
+    background-color: rgba(0, 0, 0, 0.2) !important;
+}
+.ReactModal__Content{
+    // background-color: rgba(0, 0, 0, 0.2) !important;
+    background: transparent !important;
+    position: relative;
+    border: none !important;
+    // padding: 0px !important;
+    padding-top: 20px;
+}
+.Modal {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    right: 40px;
+    bottom: 40px;
+    // background-color: papayawhip;
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    // background-color: rgba(0, 0, 0, 0.5);
+
+  }
+
+  .Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rebeccapurple;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+.custom-style {
+    background-color: white;
+    // padding: 14px 20px;
+    height: 600px;
+    width: 850px;
+    .header-popup{
+        height: 50px;
+        background-color: lightgrey;
+        width: 100%;
+        .cart-text{
+            font-size: 20px;
+            font-weight: 500;
+            margin-top: 8px;
+        }
+    }
+    .left-section-popup{
+        padding: 10px 20px;
+        
+        .course-title-pop-up{
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 20px;
+               
+        }
+        .courses-popup{
+            margin-top: 10px;
+            display: flex;
+            margin-bottom: 30px;
+            img{
+                margin-right: 10px;
+                height: 100px;
+                width: 100px;
+            }
+            .col-11{
+                // width: 400px
+                display: flex;
+            }
+            .course-detail-popup{
+                width: 330px;
+                .course-name-popup{
+
+                    font-size: 16px;
+                    font-weight: 600;
+                    margin-bottom: 3px;
+                    
+                }
+                
+                .course-detail-popup{
+                    
+                    margin-bottom: 10px;
+                    font-size: 14px;
+                    // font-weight: 600;
+                    
+                }
+                .rating-popup{
+                    margin-top: 10px;
+                }
+
+            }
+            .col-1{
+                    text-align: center;
+                    padding: 0px;
+                .close-course-popup{
+                    font-size: 10px;
+                color: white;
+                background-color: lightgrey;
+                // height: 20px;
+                // width: 30px;
+                padding: 2px 3px;
+                text-align: center;
+                border-radius: 25px;
+                    width: 20px;
+                    margin-left: 10px;
+            }
+            .price-course-popup{
+                font-size: 20px;
+                font-weight: 600;
+                margin-top: 20px;
+                
+            }
+        }
+            
+            
+        }
+        .col-4{
+            margin-top: 20px;
+            .total-amount-pop{
+                height: 50px;
+                border-bottom: 1px dashed grey;
+                .text-amount{
+                    
+                    font-size: 14px;
+                    font-weight: 500;
+                }
+                .amount-popup{
+                    font-size: 16px;
+                    font-weight: 500;
+                    position: absolute;
+                    right: 20px;
+                }
+
+            }
+            .payment-pop{
+                margin-top: 10px;
+                height: 220px;
+                border-bottom: 1px dashed grey;
+                .text-amount{
+                    
+                    font-size: 13px;
+                    // font-weight: 500;
+                }
+                .master-card-popup{
+                    img{
+
+                        height: 25px;
+                        width: 25px;
+                        position: absolute;
+                        right: 97px;
+                    }
+                    .visa{
+
+                        height: 25px;
+                        width: 25px;
+                        position: absolute;
+                        right: 125px;
+                    }
+                }
+                .amount-popup{
+                    font-size: 10px;
+                    font-weight: 500;
+                    position: absolute;
+                    right: 20px;
+                    margin-top: 5px;
+                }
+                .cardnumber{
+                    font-size: 10px;
+                    text-align: right;
+                    color: grey;
+                    margin-top: 10px;
+                }
+                .useCard{
+                    font-size: 20px;
+                    text-align: right;
+                    // position: ;
+                    font-size: 14px;
+                    color: #30B484;
+                }
+
+                .card-elements{
+                    margin-top: 20px;
+                    .expire-label , .label-card-number ,.sec-label{
+                        font-size: 12px;
+                    }
+
+                }
+
+            }
+            .no-courses{
+                margin-top: 10px;
+                height: 80px;
+                // border-bottom: 1px dashed grey;
+                .text-amount{
+                    
+                    font-size: 14px;
+                    // font-weight: 500;
+                }
+                
+                .amount-popup{
+                    font-size: 18px;
+                    font-weight: 500;
+                    position: absolute;
+                    right: 20px;
+                    // margin-top: 5px;
+                }
+                .buy-now{
+                    padding: 10px 80px;
+                    background-color: #30B484;
+                    color: white;
+                    margin-top: 70px;
+                    margin-left: 10px;
+                    border-radius: 5px;
+                    border: 1px solid grey;
+                    box-shadow: 0px 0px 3px 0px lightgrey;
+                    outline: none;
+                    cursor: pointer;
+
+
+                }
+                
+            }
+        }
+    }
+    .close {
+        position: absolute;
+        top: 13px;
+        right: 15px;
+        color: red;
+        font-weight: 600;
+        font-size: 18px;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        
+    }
+}

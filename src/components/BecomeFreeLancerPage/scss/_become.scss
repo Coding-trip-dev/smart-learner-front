@@ -1,0 +1,151 @@
+.become-freelancer{
+    .jumbotron{
+        margin-bottom: 0px !important;
+    }
+.register-section{  
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    .register-heading{
+        text-transform: uppercase;
+        text-align: center;
+        width: 100%;
+        font-size: 2em;
+        font-weight: 500;
+        color: #30B484;
+        margin-top: 20px;
+    }
+    .section-instructor-left{
+        margin-top: 20px;
+        text-align: center;
+        margin-bottom: 30px;
+        
+    }
+    .section-instructor-right{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        
+        .lorem-ipsum-text{
+            font-size: 20px;
+            font-weight: 400;
+            width: 80%;
+            
+        }
+        .benefits{
+            font-size: 25px;
+            font-weight: 700;
+            color: #30B484;
+            margin-top: 20px !important;
+            margin-bottom: 20px !important;
+        }
+        .benefit-list{
+            padding-inline-start: 0px !important;
+
+            li {
+                margin-bottom: 20px;
+                font-size: 20px;
+                list-style: none;
+                font-size: 20px;
+            }
+            
+            li:before {
+                content:"·";
+                font-size:100px;
+                vertical-align:text-top;
+                line-height:10px;
+                color: lightgray;
+                margin-right: 10px;
+                margin-left: 0px;
+            }
+        }
+        .join-btn{
+            margin-top: 20px;
+            padding: 10px 30px;
+            border: 1px solid grey;
+            box-shadow:0px 1px 10px 4px lightgrey;
+            background-color: #30B484;
+            text-transform: uppercase;
+            font-size: 1.2em;
+            font-weight: 500;
+            color: white;
+            margin-left: 60px;
+            outline: none;
+            cursor: pointer;
+        }
+    }
+
+}
+.register-as-institute{
+    background-color: #fff;
+    .section-instructor-right{
+        padding-left: 60px;
+    }
+}
+.how-it-works{
+    margin: 40px 0px;
+    ._heading{
+        text-transform: uppercase;
+        text-align: center;
+        width: 100%;
+        font-size: 2em;
+        font-weight: 500;
+        color: #30B484;
+        // margin-top: 40px;
+        margin-bottom: 50px;
+    }
+    .color-white{
+        background-color: #fff;
+    }
+    .card-outerr{
+        border: none;
+        height: 350px;
+        background-color: #f5f5f5;
+        text-align: center;
+        padding: 20px;
+        border-radius: 3px;
+        box-shadow: 0px 1px 10px 4px lightgrey;
+        .heading-card{
+            font-size: 2em;
+        }
+        .card-text{
+            text-align: start;
+            font-size: 18px;
+            color: grey;
+            width: 95%;
+            padding: 0px 10px;
+            margin: 10px 0px;
+        }
+        .cards-works{
+            margin-top: 20px;
+        }
+    }
+
+}
+.are-you-ready{
+    background-color: #33aa58;
+    height: 300px;
+    .h3{
+        // margin-top: 30px !important;
+        color: white;
+        font-size: 3em;
+        padding: 45px 0px;
+    }
+    .become-freelancer-btns{
+        margin-top: 30px;
+        button{
+            font-size: 1.4em;
+            text-transform: uppercase;
+            padding: 10px 70px;
+            margin: 5px;
+            color: #30b484;
+            background-color: white;
+            border: none;
+            border-radius: 3px;
+            box-shadow: 0px 1px 5px 1px black;
+            font-weight: 600;
+            outline: none;
+            cursor: pointer;
+        }
+    }
+}
+}

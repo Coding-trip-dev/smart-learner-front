@@ -1,0 +1,31 @@
+.bottom-border{
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+    width: 100%;
+    margin: 10px 0px ;
+}
+.categories-tag-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    // margin: 10px 0px;
+    // width: 100%;
+  
+    ._flex{
+        display: flex;
+    }
+    .category-1{
+        background-color: #ccc;
+        padding: 8px 30px 5px 30px;
+        margin: 10px;
+        .icon-image{
+            height: 20px;
+            margin-right: 5px;
+        }
+        .icon{
+            margin-right: 10px;
+        }
+        border-radius: 25px;
+        font-weight: 500;
+        // font-size: 16px;
+    }
+}

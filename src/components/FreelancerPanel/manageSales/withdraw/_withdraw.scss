@@ -1,0 +1,291 @@
+.withdrawal-wrapper {
+  flex: 1;
+  padding: 28px;
+  margin: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 50px;
+  box-shadow: 0 0 5px 2px lightgrey;
+  .heading {
+    font-weight: lighter !important;
+  }
+  .courseHeading{
+    font-size: 2.2em;
+    font-weight: 700;
+    color: #51ab59;
+
+  }
+  .heading-texting{
+    color: grey;
+    font-size: 18px;
+    position: relative;
+    top: -5px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-top: 10px !important;
+    span{
+      color: #51ab59;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+  }
+  .withdraw-amount{
+    text-transform: capitalize;
+    margin-top: 20px;
+    p{
+      font-weight: 700 !important;
+      font-size: 1.8em;
+      color: #51ab59;
+
+    }
+    .amount-input{
+      width: 230px;
+      height: 40px;
+      padding: 10px 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-top: 20px;
+      font-size: 18px;
+      text-transform: uppercase;
+      color: grey;
+    }
+    .aed-text{
+      font-size: 18px;
+      font-weight: 500;
+      color: #51ab59;
+      position: relative;
+      left: -40px;
+    }
+    
+  }
+  .send-request{
+    .request-bt{
+      margin-top: 20px;
+      padding: 8px 40px;
+      background-color: #51ab59;
+      color: white;
+      border: 1px solid #51ab59;
+      border-radius: 5px;
+      font-size: 1.2em;
+      box-shadow: 0 0 5px 2px lightgrey;
+
+    }
+  }
+    .acc-balance{
+    font-size: 2em;
+    font-weight: 700;
+    position: absolute;
+    right: 0px;
+    color: #3a3a3a;
+
+      span{
+        color: #51ab59;
+        text-transform: uppercase;
+        font-weight: 600;
+      }
+    }
+  .user-bank-details{
+    
+    .sub-heading{
+      font-size: 1.2em;
+      font-weight: 400;
+      text-transform: capitalize;
+      color: grey;
+      .title-bank{
+        font-size: 1.3em !important; 
+        font-weight: 500;
+        margin: 5px 0px  !important;
+        color: #3a3a3a;
+      }
+    }
+    .withdraw-amount{
+      text-transform: capitalize;
+      margin-top: 20px;
+      p{
+        font-weight: 700 !important;
+        font-size: 1.8em;
+        color: #51ab59;
+
+      }
+      .select-amount{
+        width: 230px;
+        height: 50px;
+        padding: 10px 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-top: 20px;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: grey;
+      }
+      
+    }
+    .send-request{
+      .request-bt{
+        margin-top: 20px;
+        padding: 8px 40px;
+        background-color: #51ab59;
+        color: white;
+        border: 1px solid #51ab59;
+        border-radius: 5px;
+        font-size: 1.2em;
+        box-shadow: 0 0 5px 2px lightgrey;
+
+      }
+    }
+
+
+
+
+
+
+  }
+  .top-sales-details-wrapper{
+    .total-sale-wrapper{
+      margin-top: 30px !important;
+      margin-bottom: 20px;
+      height: 150px;
+      box-shadow: 0 0 5px 2px lightgrey;
+      width: 100%;
+      padding: 25px 20px;
+      border-radius: 5px;
+      display: flex;
+      .bank-logo{
+          height: 50px;
+          margin: 20px 10px 0px 10px;
+          width: 50px;
+          // margin-left: 20px;
+      }
+      .sale-amount{
+          font-size: 1em;
+          font-weight: 500;
+          text-transform: uppercase;
+          text-align: center;
+          margin-top: 25px !important;
+          margin-left: 20px;
+        }
+    }
+  }
+  .top-sales-details-wrapper{
+    text-align: center;
+    margin: 30px 0px;
+    .total-sale-wrapper{
+      height: 150px;
+      box-shadow: 0 0 5px 2px lightgrey;
+      width: 100%;
+      padding: 25px 10px;
+      border-radius: 5px;
+  
+      .bank-transfer{
+        height: 200px;
+        width: 220px;
+        text-align: center;
+        margin: auto;
+        position: relative;
+        top: -50px;
+      }
+      .credit-card{
+        font-size: 4em; 
+        color: grey;
+      }
+      .credit-card-text{
+        // display: inline-block;
+        margin: auto;
+        span{
+          font-size: 18px;
+          color: grey;
+          font-weight: 500 !important;
+        }
+      }
+      .bank-paypal{
+        height: 110px;
+        margin: auto;
+      }
+      .bank-gpay{
+        height: 80px;
+        margin: auto;
+      }
+    }
+  }
+
+
+
+}
+.withdraw-transitions{
+  font-size: 1.5em;
+  font-weight: 500;
+  color: #3a3a3a;
+  margin: 50px 0px 0px;
+}
+.select-month-transaction{
+    padding: 8px 15px 8px 15px;
+    width: 140px;
+    background-color: #dadada;
+    font-size: 1em;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    border: none;
+    font-weight: 500;
+  }
+
+.select-label {
+  color: #51ab59;
+  font-size: 0.9rem;
+  margin-bottom: 12px !important;
+}
+
+
+.table_course_management{
+  margin-top: 30px;
+  th {
+    text-transform: capitalize;
+    color: white;
+    font-weight: 600;
+    padding: 15px;
+    font-size: 18px !important;
+  }
+  th,
+  td {
+    border-top: 2px solid white;
+    font-size: 1.2rem;
+    vertical-align: middle;
+    text-transform: capitalize;
+    font-weight: 400;
+  }
+  thead {
+    background-color: #51ab59;
+    border-bottom: 3px solid white !important;
+  }
+  tbody {
+    // text-align: center;
+    tr {
+      background-color: #e8f4ec !important;
+      // margin: 10px 0px !important;
+      
+    }
+    .date-table{
+      font-weight: 400;
+      font-size: 16px;
+      font-style: italic;
+    }
+    .buyer-img{
+      height: 50px;
+      margin-right: 10px;
+    }
+    .font-500{
+      font-weight: 500;
+    }
+    // .more-icon{
+    //   color: #cccccc;
+    //   height: 20px;
+    // }
+    .debt-color{
+      margin-left: 10px;
+      color: red;
+    }
+    .credit-color{
+      color: #51ab59;
+    }
+  }
+ 
+}

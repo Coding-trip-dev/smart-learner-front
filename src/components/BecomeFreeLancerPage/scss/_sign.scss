@@ -1,0 +1,133 @@
+@import "../../../assets//scss//constants";
+
+.social-btn {
+  //    width: 180px;
+  //    font-size: 0.9rem;
+  //    color: white;
+  width: 200px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border: none;
+  color: white;
+  padding: 4px;
+  padding-left: 13px !important;
+  text-align: left;
+  &:hover {
+      cursor: pointer;
+  }
+  img {
+    height: 30px;
+    margin-right: 10px;
+  }
+  &.fb {
+    margin-top: 10px;
+    background-color: #395697;
+  }
+  &.gmail {
+    background-color: red;
+
+    margin: 10px 0px;
+  }
+}
+.form-group {
+  display: flex;
+  justify-content: center;
+  .signIn-btn,.signUp-btn {
+    width: 300px;
+    padding: 5px 5px 8px 5px;
+    font-size: 24px;
+  }
+  label {
+    text-align: left;
+    color: $secondary;
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+
+}
+.auth{
+    padding: 14px 30px;
+
+}
+.btn-outer{
+  margin-top: 40px;
+}
+.btn-outer2{
+  margin-top: 50px;
+}
+.signUp,
+.signIn {
+  color: $primary;
+  margin-left: 10px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.primaryBtnAuth{
+  background-color: #21927a !important;
+}
+
+.OR {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // width: 180px;
+  margin-bottom: 10px;
+  color: $secondaryText;
+  .or-text {
+    font-size: 0.7rem !important;
+    font-weight: 600 !important;
+    margin: 0px 5px !important;
+  }
+  .or-left {
+    height: 1px;
+    width: 88px;
+    background-color: $secondaryText;
+    margin-right: 6px;
+  }
+  .or-right {
+    height: 1px;
+    width: 88px;
+    background-color: $secondaryText;
+    margin-left: 6px;
+  }
+}
+.password-row {
+  margin-bottom: 5px;
+}
+input {
+    color: $secondaryText !important;
+    font-size: 0.9rem !important;
+    font-weight: 400 !important;
+  &:focus {
+    color: $secondaryText !important;
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+}
+.forgot-password-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 3px;
+  font-size: 15px;
+  color: $secondaryText;
+  margin-top: 0px;
+  span {
+    color:$secondaryText;
+}
+}
+.form-register{
+  width: 500px;
+  height: 350px;
+}
+.form-login{
+  width: 500px;
+  height: 300px;
+}
+// .error-field{
+//     border: 1px solid red;
+  
+  
+// }

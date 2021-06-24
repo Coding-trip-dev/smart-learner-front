@@ -1,0 +1,31 @@
+.admin-section {
+    min-height: calc(92vh - 60px);
+   > ul {
+        list-style-type: none;
+        padding-inline-start: 0px !important;
+        background-color: white;
+        width: 70px;
+        li {
+            border-bottom: 1px solid #E8F6ED;
+            height: 60px;
+            background-color: #51AB59;
+            a{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+                border-left: 4px solid #51AB59;
+                border-right: 4px solid #51AB59;
+                &:focus {
+                    border-left-color: white;
+                }
+                >img {
+                    height: 35px;
+                }
+            }
+        }
+    }
+}
+.nothing_to_show{
+    text-align: center;
+  }

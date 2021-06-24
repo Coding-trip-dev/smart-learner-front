@@ -1,0 +1,63 @@
+@import "../../../assets//scss//constants";
+
+.time-box {
+  width: 200px;
+  padding: 11px;
+  text-align: center;
+  margin-top: 21px;
+  box-shadow: 0 0 5px 2px lightgrey;
+  h3 {
+    color: $primary;
+    .original-amnt {
+      font-size: 0.85rem;
+      margin-left: 8px;
+      color: gray;
+    }
+  }
+  .row {
+    .timer-entity {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .entity {
+        font-size: 0.7rem;
+        color: gray;
+      }
+    }
+  }
+  position: relative;
+  .discount {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: red;
+    color: white;
+    font-size: 11px;
+    width: 55px;
+    border-radius: 8px;
+    padding: 0px 3px;
+    margin-left: -21px;
+    margin-top: -7px;
+  }
+}
+.btn-div {
+  width: 200px;
+  text-align: center;
+  .btn {
+    width: 200px;
+    color: white;
+    padding: 3px 12px;
+    background-color: $secondary;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    span {
+      padding-left: 3px;
+    }
+    &.btn-buy {
+      background-color: $primary;
+      padding: 6px 12px;
+    }
+  }
+}

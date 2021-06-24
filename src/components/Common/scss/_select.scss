@@ -1,0 +1,42 @@
+@import "../../../assets//scss//constants";
+
+.filter-item {
+  border: 1px solid gray;
+  border-radius: 2px;
+  margin-right: 20px;
+  font-weight: 350;
+  color: gray;
+  font-size: 0.9rem !important;
+}
+.dropdown-div {
+  display: flex;
+  margin: 0px 20px;
+  padding: 20px 0px;
+  max-width: 100%;
+  overflow: auto;
+  .custom-select {
+    @extend .filter-item;
+    width: 200px;
+    min-width: 149px;
+    background-image: url("../../../assets//icons//down-arrow.png") !important;
+    background-size: 10px;
+    &:hover {
+      cursor: pointer;
+    }
+    option {
+      font-weight: 350;
+      &:hover {
+        cursor: pointer !important;
+      }
+    }
+  }
+  .search-institute {
+    @extend .filter-item;
+    padding: 0px 6px;
+    width: 300px;
+    &::placeholder {
+      text-transform: capitalize;
+      font-weight: 350;
+    }
+  }
+}

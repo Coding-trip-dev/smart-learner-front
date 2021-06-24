@@ -1,0 +1,63 @@
+.customFileUploadDiv {
+  input[type="file"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 1px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+  }
+
+  .inputfile + label span {
+    width: 160px;
+    min-height: 18px;
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: top;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: gray;
+    font-size: 0.9rem;
+    font-weight: lighter;
+  }
+
+  .inputfile + label strong {
+    height: 100%;
+    color: gray;
+    background-color: #e9e8e8;
+    font-weight: lighter;
+    font-size: 0.65rem;
+    padding: 2px 6px;
+    width: 100px;
+    display: flex !important;
+    align-items: center;
+  }
+  .inputfile + label svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+    margin-top: -0.25em;
+    margin-right: 0.25em;
+    font-size: 1rem;
+  }
+
+  .box {
+    position: relative;
+  }
+  label {
+    display: flex !important;
+    height: 34px;
+    strong {
+    }
+  }
+}

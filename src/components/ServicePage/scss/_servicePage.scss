@@ -1,0 +1,117 @@
+@import "../../../assets//scss//constants";
+
+.service-img {
+  width: 100% !important;
+}
+.dashed-line {
+  border: 1px solid gray;
+  border-width: 0.01rem;
+  border-style: dashed;
+  margin-bottom: 1rem;
+}
+.reviews {
+  .reviews-total-text {
+    font-weight: bold;
+    margin-top: 20px !important;
+    margin-bottom: 11px !important;
+  }
+}
+
+.reviewer-avatar {
+  height: 50px;
+  border-radius: 50%;
+}
+.rating-div-service {
+  display: flex;
+  align-items: center;
+  margin: 15px 0px;
+  margin-bottom: 6px;
+  span {
+    font-size: 1.8rem;
+  }
+  .total {
+    color: $secondaryText;
+    margin-left: 12px;
+    font-weight: 360;
+  }
+}
+.service-description {
+  margin-bottom: 24px;
+  color: gray;
+  font-weight: 60;
+  word-spacing: 4px;
+}
+
+.packages-section {
+  padding: 0px 10px !important;
+  padding-left: 26px !important;
+  .heading {
+    background-color: black;
+    color: white;
+    padding: 13px;
+    border-radius: 5px;
+  }
+  .tabs {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: $primary;
+  border-radius: 0px !important;
+  border-bottom: 2px solid $primary;
+  background-color: white !important;
+}
+.nav-pills {
+  .nav-item {
+    .nav-link {
+      color: #9D9C9D !important;
+      &.active {
+        color: $primary !important;
+        border-bottom: 2px solid $primary;
+      }
+    }
+  }
+}
+.jobs-completed-service {
+  font-weight: 300;
+  color: $secondary;
+  margin-bottom: 1rem;
+}
+.extra-info-col {
+  .info-title {
+    margin-bottom: 0px !important;
+  }
+  .info {
+    margin-bottom: 1rem !important;
+  }
+}
+@media (max-width : 767px) {
+  .rating-div-service {
+    margin: 8px 0px;
+    margin-bottom: 0px;
+    span {
+      font-size: 1rem !important;
+    }
+  }
+  .jobs-completed-service {
+    margin-bottom: 10px;
+  }
+  .extra-info-col {
+    .info {
+      margin-bottom: 10px !important;
+    }
+  }
+  .packages-section {
+    padding: 0px !important;
+    margin-top: 5px;
+  }
+  .dashed-line , .service-description  {
+    margin-bottom: 10px;
+  }
+  .reviews .reviews-total-text {
+    margin-top: 10px !important;
+    margin-bottom: -2px !important;
+  }
+}

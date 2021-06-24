@@ -1,0 +1,45 @@
+@import "./constants";
+
+.root {
+  width: 100%;
+}
+body {
+  a {
+    text-decoration: none !important;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 450 !important;
+  }
+}
+.container-fluid {
+  padding: 0px;
+}
+.row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.primaryBtn {
+  background-color: $primary !important;
+  color: white !important;
+  border: none !important;
+  font-weight: 300;
+  border-radius: 4px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+p {
+  font-weight: 350;
+}
+*:focus {
+  outline: none;
+}
+.margin-from-navbar {
+  margin-top: 20px;
+}
+

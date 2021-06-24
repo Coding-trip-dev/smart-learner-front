@@ -1,0 +1,111 @@
+@import "../../../../../assets//scss/constants";
+
+.edit-service-cntnr {
+    .heading{
+        color: $primary;
+        font-weight: 600 !important;
+    }
+    
+    .w-100{
+        width: 620px !important;
+    }
+    .words-300 {
+        color: gray;
+        font-size: 0.8rem;
+        font-style: italic;
+        font-weight: 100;
+    }
+    ._marginLeft{
+        margin-left: 90px !important;
+    }
+    .actionsArea-bottom{
+        button{
+
+            position: absolute !important;
+            right: 0px !important;
+        }
+    }
+    
+}
+.packages-header {
+    color: $primary;
+    font-weight: 400 !important;
+}
+.packages-container {
+    background-color: #F3F3F3;
+    border-radius: 4px;
+    
+    table {
+        width: 100%;
+        .pack-name{
+            font-size: 18px;
+            font-weight: 500;
+
+        }
+        .editIcon{
+            // font-size: 10 !important;
+            color: grey;
+            position: absolute;
+            right: 10px;
+            height: 15px;
+            top: 15px;
+        }
+         tr th , tr td {
+            width: 25%;
+            height: 50px;
+            border: 1px solid lightgray;
+            vertical-align: middle;
+        }
+        tr td {
+            font-size: 0.75rem;
+            font-weight: lighter;
+            position: relative;
+        }
+        tr th {
+            height: 70px;
+            border-top: 0px;
+            font-weight: normal;
+            color: grey;
+            padding-left: 10px;
+        }
+        th:first-child , td:first-child {
+            border: 0px;
+            padding-left: 35px;
+            font-size: 0.9rem;
+            color: grey;
+
+        }
+        td:last-child , th:last-child {
+            border-right: 0px;
+        }
+        .title {
+            .title-text {
+                height: 76px;
+                padding-top: 2px;
+                padding-bottom: 0px;
+                background-color: white;
+            }
+            td label {
+                margin-bottom: 0px;
+                height: 100%;
+            }
+            td textarea {
+                border: 0px;
+                // border: 1px solid lightgray;
+                border-radius: none !important;
+                margin: none !important;
+                resize: none;
+
+            }
+        }
+    }
+}
+.success-modal {
+    background-color: white;
+    padding: 30px 70px;
+    border-radius: 11px;
+    h5 {
+        color: lightgrey;
+        font-weight: 200 !important;
+    }
+}

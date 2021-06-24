@@ -1,0 +1,38 @@
+@import "../../../assets//scss//constants";
+
+
+.service-cntnr {
+  margin-bottom: 20px;
+  .review-text {
+    color: $secondary;
+    font-weight: 350;
+  }
+}
+
+.review-detail-col {
+  padding-top: 5px !important;
+  p {
+    .name {
+      font-weight: bold;
+    }
+    .rating {
+      font-size: 13px;
+      margin-left: 12px;
+    }
+  }
+  .days {
+    color: $secondary;
+    font-size: 12px;
+  }
+}
+
+.service-rating-star {
+  font-size: 0.7rem !important;
+  margin: 2px 0px 0px 10px;
+}
+
+@media (max-width : 767px) {
+  .service-cntnr{
+    margin-bottom: 10px !important;
+  }
+}

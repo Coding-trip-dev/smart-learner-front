@@ -1,0 +1,21 @@
+.development-page{
+  // margin: 30px 0px;
+    
+  .cards-group{
+    margin-top: 30px;
+    .heading-trending{
+      font-weight: 500;
+      margin-left: 10px;
+      font-size: 2em;
+      margin-bottom: 10px !important;
+    }
+    .see-all{
+      position: absolute;
+      right: 20px;
+      font-size: 1.3em;
+      text-transform: uppercase;
+      top: 10px;
+
+    }
+  }
+}

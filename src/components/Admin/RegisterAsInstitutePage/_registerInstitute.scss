@@ -1,0 +1,30 @@
+.social-links-col {
+    border: 1px solid gray;
+    padding: 4px !important;
+    padding-left: 6px !important;
+    border-radius: 4px;
+    img {
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+    }
+    input {
+        border: none;
+        height: 100%;
+        width: calc(100% - 30px);
+        font-size: 1rem;
+        padding: 0px 10px;
+    }
+}
+.location-search-input {
+    position: absolute;
+    z-index: 9;
+    top: 10px;
+    left: 10px;
+    background: transparent;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 0px;
+    color: white !important;
+    font-weight: 100 !important;
+}

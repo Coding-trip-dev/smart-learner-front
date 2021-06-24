@@ -1,0 +1,117 @@
+.dashboard-card {
+  .card {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    &.total-students {
+      border: 1px solid #598afc;
+      box-shadow: 0 0 10px rgba(89, 138, 252, 0.75);
+    }
+    &.new-students {
+      border: 1px solid #c33d55;
+      box-shadow: 0 0 10px rgba(195, 61, 85, 0.75);
+    }
+    &.total-sales {
+      border: 1px solid #3e4871;
+      box-shadow: 0 0 10px rgba(62, 72, 113, 0.75);
+    }
+    &.new-instructors {
+      border: 1px solid #3f927a;
+      box-shadow: 0 0 10px rgba(63, 146, 122, 0.75);
+    }
+    &.total-instructors {
+      border: 1px solid #f9b730;
+      box-shadow: 0 0 10px rgba(249, 183, 48, 0.75);
+    }
+    &.total-courses {
+      border: 1px solid #f06466;
+      box-shadow: 0 0 10px rgba(240, 100, 102, 0.75);
+    }
+
+    .card-body {
+      position: relative;
+      padding: 15px 12px !important;
+      padding-top: 10px !important;
+      .db-card-bottom-text {
+        position: absolute;
+        bottom: 10px;
+        margin: 0px !important;
+      }
+    }
+  }
+}
+
+.image-cntnr {
+  height: 100px;
+    width: 100px;
+    padding: 14px;
+    border-radius: 50%;
+    border: 3px solid;
+    &.total-students {
+      border-color: #cddcfe;
+      background-color: #598afc;
+    }
+    &.new-students {
+      border-color: #ecbfcc;
+      background-color: #c33d55;
+    }
+    &.total-sales {
+      border-color: #c4c8d5;
+      background-color: #3e4871;
+    }
+    &.new-instructors {
+      border-color: #bcded7;
+      background-color: #3f927a;
+    }
+    &.total-instructors {
+      border-color: #fee8b9;
+      background-color: #f9b730;
+    }
+    &.total-courses {
+      border-color: #f9d1d1;
+      background-color: #f06466;
+    }
+    .dashboardCard-img {
+      // height: 104px;
+      // width: 104px;
+      // border: 3px solid;
+      // border-radius: 50%;
+      // padding: 10px;
+    
+      height: 100%;
+      width: 100%;
+     
+    }
+}
+
+.dashboard-card-count {
+  color: gray;
+  font-size: 19px !important;
+  margin-top: 1px;
+  font-weight: 600;
+}
+.dashboard-card-title {
+  font-size: 1.45rem;
+  text-transform: capitalize;
+  margin-bottom: 0px;
+  letter-spacing: 0.01rem;
+  word-spacing: 6px;
+  &.total-students {
+    color: #598afc;
+  }
+  &.new-students {
+    color: #c33d55;
+  }
+  &.total-sales {
+    color: #3e4871;
+  }
+  &.new-instructors {
+    color: #3f927a;
+  }
+  &.total-instructors {
+    color: #f9b730;
+  }
+  &.total-courses {
+    color: #f06466;
+  }
+}
